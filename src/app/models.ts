@@ -4,6 +4,7 @@ export interface Game {
     released: string;
     metacritic_url: string;
     website: string;
+    id: string;
     description: string;
     metacritic: number;
     genres: Array<Genre>;
