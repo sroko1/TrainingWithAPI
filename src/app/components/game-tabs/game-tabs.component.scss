@@ -5,10 +5,10 @@
     color: #fff;
     text-align: left;
     padding: 10px;
-
+    
 
     &-par {
-      padding: 20px 20px 0 20px;
+      padding: 10px 20px 0 20px;
       margin-bottom: 0;
     }
 
@@ -26,10 +26,7 @@
     }
 
     ::ng-deep .mat-tab-labels {
-      justify-content:center;
-     
-      overflow: hidden;
-     
+      justify-content: center;
     }
   }
 
@@ -50,6 +47,7 @@
 
   &-description {
     padding: 20px;
+    display: inline-block;
   }
  
   &-screenshot {
